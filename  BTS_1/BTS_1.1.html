@@ -4,16 +4,37 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  &ltlink href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"&gt
-  &ltscript src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"&gt&lt/script&gt
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"&>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
 
 <div class="container">
   <h1>risposte domande</h1>
   <h2>A cosa serve Bootstrap?</h2>
-  <p>The .container class provides a responsive fixed width container.</p>
-</div>
+  <p>Bootstrap serve a Bootstrap serve a creare siti web e applicazioni web in modo più rapido e semplice, fungendo da framework front-end che offre una vasta raccolta di componenti predefiniti (come pulsanti, moduli, navigazione) e un sistema di layout responsivo. Questo permette di realizzare siti che si adattano automaticamente a schermi di diverse dimensioni (computer, tablet, smartphone) e che sono compatibili con i principali browser, senza dover scrivere tutto il codice da zero.</p>
+    <h2>Cosa devi importare per creare una pagina web con bootstrap?</h2>
+
+  <p>
+&ltlink rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"&gt<br>
+&ltscript src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"&gt&lt/script&gt
+</p>
+
+     <h3>Cos’è un CDN? Che vantaggi comporta rispetto a scaricare bootstrap sul tuo sito?</h3>
+     <p>
+
+Una CDN, o Content Delivery Network (Rete di Distribuzione dei Contenuti), è una rete di server distribuiti geograficamente che velocizza la consegna dei contenuti web agli utenti. Lo fa memorizzando copie temporanee (cache) di file come immagini, video e script vicino agli utenti, riducendo la distanza e il tempo di caricamento rispetto a un singolo server di origine. .Molti utenti hanno già scaricato Bootstrap 5 da jsDelivr quando visitavano un altro sito. Di conseguenza, verrà caricato dalla cache quando gli utenti visitano il tuo sito, il che comporta tempi di caricamento più rapidi. Inoltre, la maggior parte dei CDN si assicurerà che una volta che un utente richiede un file, questo verrà servito dal server più vicino a loro, il che porta anche a tempi di caricamento più rapidi.
+</p>
+
+     <h4>A cosa serve questo attributo del tag meta?content="width=device-width, initial-scale=1</h4>
+
+     <p>serve a dire al browser come adattare la pagina web per i dispositivi mobili. width=device-width imposta la larghezza della pagina sulla larghezza effettiva dello schermo del dispositivo, mentre initial-scale=1 imposta il livello di zoom iniziale su \(1:1\) (nessun ingrandimento o rimpicciolimento) al momento del caricamento. </p>
+
+      <h5>Che differenza c’è tra Container e Container Fluid (prova il container fluid creando una pagina chiamata BTS_1.1.1.html)</h5>
+
+     <p>La classe .container fornisce un contenitore reattivo a larghezza fissa. La classe .container-fluid fornisce un contenitore a larghezza intera, che copre l'intera larghezza del viewport.</p>
+
+    </div>
 
 </body>
 </html>
